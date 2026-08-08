@@ -1,9 +1,48 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <img src="images/logo.png">
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <title>Oldagram</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Play:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img class="app-logo" src="images/logo.png" alt="Oldagram logo, just written as 'Oldagram' in a fancy font" />
+        <img src="images/user-avatar.png" alt="user's avatar" class="avatar" />
+      </header>
+      <main>
+        <section class="account-info">
+          <div class="avatar-container">
+            <img src="images/avatar-vangogh.jpg" alt="Portrait of Vincent Van Gogh as a teen in a black and white suit" class="avatar" />
+          </div>
+          <div>
+            <h1 class="user-name">Vincent van Gogh</h1>
+            <h2 class="normal-font-weight user-location">Zudert, Netherlands</h2>
+          </div>
+        </section>
+
+        <section class="post">
+          <img src="images/post-vangogh.jpg" alt="Portrait of Vincent Van Gogh as an old man giving a side" class="olda-post" />
+        </section>
+
+        <section class="icons">
+          <img src="images/icon-heart.png" alt="like-icon" class="icon" />
+          <img src="images/icon-comment.png" alt="comment-icon" class="icon" />
+          <img src="images/icon-dm.png" alt="dm-icon" class="icon" />
+        </section>
+
+        <section class="reactions">
+          <p>
+            <span class="new-line">21, 492 likes</span>
+            vincey1853
+            <span class="normal-font-weight">just took a few mushrooms lol</span>
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
