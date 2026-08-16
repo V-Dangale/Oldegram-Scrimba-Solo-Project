@@ -9,7 +9,7 @@ function renderPost(postDetails) {
 
 			<div class="avatar-container" id="avatar-container">
 				<img
-				src="${details.avatar}"
+				src=${details.avatar}
 				class="avatar" 
 				id="avatar" />
 			</div>
