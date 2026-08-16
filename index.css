@@ -47,8 +47,8 @@ header {
 }
 
 .wrapper {
-  max-width: 500px;
-  min-width: 375px;
+  max-width: 900px;
+  min-width: 400px;
   margin: 0 auto;
 }
 
